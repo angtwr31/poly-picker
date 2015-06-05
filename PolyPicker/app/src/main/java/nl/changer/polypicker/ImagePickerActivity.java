@@ -92,6 +92,8 @@ public class ImagePickerActivity extends ActionBarActivity {
         if (savedInstanceState != null) {
             populateUi(savedInstanceState);
         }
+        
+        hideSelectedImageContainer();
     }
 
     private void populateUi(Bundle savedInstanceState) {
