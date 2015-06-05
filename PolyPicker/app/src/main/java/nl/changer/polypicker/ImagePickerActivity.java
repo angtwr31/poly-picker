@@ -103,6 +103,11 @@ public class ImagePickerActivity extends ActionBarActivity {
             }
         }
     }
+    
+    private void hideSelectedImageContainer()
+    {
+        mSelectedImagesContainer.setVisibility(View.GONE);
+    }
 
     /**
      * Sets up the action bar, adding view page indicator.
